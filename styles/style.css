@@ -1,3 +1,61 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
 }
+
+.iCan{
+    background-image: url('../images/photo-1538650438361-acc2e703c17b.avif');
+    height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.iCan h1{
+    text-align: center;
+    font-size: 80px;
+    color: yellow;
+    font-weight: 900;
+    padding-top: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 12x;
+}
+
+.written{
+    width: 80%;
+    margin: 60px auto;
+    background: linear-gradient(#008080, #000080);
+    padding: 50px;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.written h2, #great-life h3{
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.written p{
+    font-size: 25px;
+}
+
+.life{
+    display: flex;
+    gap: 20px;
+}
+
+.life div{
+    min-width: 300px;
+}
+
+.life img{
+    width: 100%;
+}
+
